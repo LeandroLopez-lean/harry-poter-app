@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+body{
+    background-color: green;
+}
+
+
+h1{
+    font-size: 20px;
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav{
+    background-color: #61b8d8;
+    width: 29%;
+    height: 100%;
+    border: 2px solid red;
+    display: block;
+    position: absolute;
+    overflow-y: auto;
+    text-indent: 15px;
+}
+section{
+    background-color: #B0E0E6;
+    width: 70%;
+    border: blue 1px solid;
+    flex-direction: column;
+    left: 30%;
+    position: absolute;
+    display: block;
+    overflow-y:auto;
+}
+
+.amarillo{
+    border-bottom: 3px solid yellow;
+}
+ul{
+    height: 400px;
+}
+div{
+    height: 650px;
+}
+p{
+    padding-top: 10px;
+}
